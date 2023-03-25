@@ -1,0 +1,131 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Main content styles */
+  .main {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+  
+  .left-column {
+    flex-basis: 25%;
+  }
+  
+  .right-column {
+    flex-basis: 75%;
+  }
+  
+  /* Status component styles */
+  .status {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .status h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .status p {
+    margin: 0;
+  }
+  
+  /* Search component styles */
+  .search {
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .search input[type="text"] {
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+  
+  .search button {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Performance component styles */
+  .performance {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .performance h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .performance p {
+    margin: 0;
+  }
+  
+  /* Trends component styles */
+  .trends {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .trends h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .trends p {
+    margin: 0;
+  }
+  
+  /* Error component styles */
+  .error {
+    color: red;
+  }
+  
+  /* Metrics component styles */
+  .metrics {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .metrics h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .metrics p {
+    margin: 0;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  

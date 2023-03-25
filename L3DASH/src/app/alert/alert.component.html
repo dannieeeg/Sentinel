@@ -1,0 +1,13 @@
+<div class="alert-container">
+    <h3 class="alert-heading">{{heading}}</h3>
+    <p class="alert-message">{{message}}</p>
+    <div class="alert-links">
+      <a href="{{splunkLink}}" target="_blank">View in Splunk</a>
+      <a href="{{kibanaLink}}" target="_blank">View in Kibana</a>
+      <a href="{{dynatraceLink}}" target="_blank">View in Dynatrace</a>
+    </div>
+    <div class="alert-actions">
+      <button (click)="acknowledge()" [disabled]="isAcknowledged">Acknowledge</button>
+    </div>
+  </div>
+  
